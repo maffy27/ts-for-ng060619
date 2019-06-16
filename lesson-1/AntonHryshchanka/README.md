@@ -11,3 +11,13 @@ touch index.js
 tslint --init
 tsc --init
 ```
+
+### Tests
+```bash
+npm i -D @types/jasmine jasmine jasmine-ts
+```
+```json
+  "scripts": {
+    "test:ah:1": "jasmine-ts --config=lesson-1/AntonHryshchanka/jasmine.json"
+  },
+```

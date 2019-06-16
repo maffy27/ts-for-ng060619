@@ -1,9 +1,13 @@
 {
+    "include": ["./*.ts"],
     "defaultSeverity": "error",
     "extends": [
-        "tslint:recommended"
+        "tslint:recommended",
+        "../../tslint.json"
     ],
     "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+    "rules": {
+      "require-jsdoc": "on"
+    },
+    "rulesDirectory": [ "./" ]
 }
