@@ -4,16 +4,13 @@
   "description": "",
   "main": "work.ts",
   "scripts": {
-    "test:ah:1": "jasmine-ts --config=lesson-1/AntonHryshchanka/jasmine.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^3.3.13",
     "@types/jquery": "^3.3.29",
-    "jasmine": "^3.4.0",
-    "jasmine-ts": "^0.3.0",
     "ts-node": "^8.2.0",
     "tslint": "^5.17.0",
     "typescript": "^3.5.2"
