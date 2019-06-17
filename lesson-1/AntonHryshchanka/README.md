@@ -7,7 +7,6 @@ npm list -g --depth 0
 
 ## Initialization
 ```bash
-touch index.js
 tslint --init
 tsc --init
 ```
