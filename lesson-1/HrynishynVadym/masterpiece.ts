@@ -32,7 +32,7 @@ function isInArray(arr: any[], ...rest: any[]): boolean {
 */
 function summator(...args: number[]): number;
 function summator(...args: string[]): string;
-function summator(...args: any[]) {
+function summator(...args: (string | number)[]) {
     if (typeof args[0] === 'number') {
         return args.reduce((sum: number, currentVal: number) => {
             return sum + currentVal;
