@@ -1,6 +1,12 @@
+import { IsInvalidArray } from './helpers';
+
 type argument = string | number;
 
 export function Summator(...args: argument[]): argument {
+  if (IsInvalidArray(args)) {
+    throw Error('invalid argument');
+  }
+
   switch (typeof args[0]) {
       case 'string': return _summaterstr(args as string[]);
       case 'number': return _summaternum(args as number[]);
