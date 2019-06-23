@@ -1,3 +1,4 @@
+"use strict";
 // let num: number = NaN;
 // let str: string = 'str';
 // let bool: boolean = true;
@@ -5,7 +6,6 @@
 // let nill: null = null;
 // let symbol: symbol = Symbol();
 // let bigInt: bigint = 400n;
-
 //
 // type MyAccount = {
 //     readonly firstName: string;
@@ -19,7 +19,6 @@
 // };
 //
 // let user: typeof account; 
-
 // //
 // // account.age = 25;
 // //
@@ -30,7 +29,6 @@
 // let arr: Array<MyAccount> = [account];
 //
 // arr.reverse()
-
 // type MyAccount = {
 //     readonly firstName: string;
 //     readonly age?: number;
@@ -63,7 +61,6 @@
 // function fn(): void {
 //
 // }
-
 // function average(...arg: sn []): string {
 //     const avg: number = 100 / 3;
 //     return `Average is ${avg}`;
@@ -74,7 +71,6 @@
 // average(1, 2, 3);
 //
 // let str: number = average(1, 2, 3);
-
 // class BasePoint {
 //     public constructor(
 //         public readonly x: number,
@@ -119,7 +115,6 @@
 // }
 //
 // let ins: Singleton = Singleton.getInstance();
-
 // abstract class AbstractInput {
 //     public onFocus(): void {
 //
@@ -137,5 +132,4 @@
 //         return 'input';
 //     }
 // }
-
 console.log('TypeScript is Awesome !!!');
